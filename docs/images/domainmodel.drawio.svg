@@ -1,0 +1,195 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="551px" height="411px" viewBox="-0.5 -0.5 551 411" content="&lt;mxfile&gt;&lt;diagram id=&quot;Z7wFx_hQZAtTPZEvF0XZ&quot; name=&quot;Page-1&quot;&gt;7VhLc5swEP41vmZ42Ng+xjhND07HEx/aHmVYgxohMUL4kV/flRHGGMjQSRPn4BmPB327Eux++4KB6yf7R0nS+EmEwAaOFe4H7nzgOOPpFP81cCgAb2wVQCRpWEB2BazoKxiwVMtpCFlNUQnBFE3rYCA4h0DVMCKl2NXVNoLV75qSCBrAKiCsif6koYoLdOKMK/w70Cgu72x7xuCElMrGkiwmodidQe7DwPWlEKq4SvY+MO270i/Fvm8d0tODSeCqzwan2LAlLDe2+XmmRALSPJ86lEZnO5owwnE12wiuVkZi45owGnG8DvCuuNOdbUEqiv66N4KEhqHWngUxZeGCHESuHy9TJHgpV7NYSPqKJxNmjkWxVIZ9Z1rTWOmdCFuISshQZ1nabF9AT2RfU1yQTBkgEIyRNKProyUaSYiMKJ8JhT4wUKyS8oGa3jUO1/bC/gwy3n4EdKWSB1Qx0pEh/lBf7qowsocGi89DyDMgMaEbnU6u2MULQ3A72cMG2ShxPKadv0bCvUhfbajMFCcJNEWMdEkyJQFUF/4jT9Y6oi6lrzRtgikjQcsdApHz0t7zsES/qzpLeE/xAr5gAkNxzkURspSxC6iMWgYb9VbMZikJKI8WR7X5sEKeDT8aErh9w46pHONG4DrehCKKVMGVCsrVkb/RDH/IqG/djQYjNMPHtV2t8afVpfIFR3MIPcYboPt3oKO3JRKd3pFoQs+Z9gw9135/6HnNOkOkj/GU3erMh9SZoXfFQjPuVWiwhQeSpooK3lKFAJYg5+SW8F0J7/UOiWsk/KQt4W+5/iG57gyvmOvTXrnOKPKYwZIR1dLb15Lwlk1J8d7QmAS6OsetMtRz72tWBnvYIA5CfL0yS7Q0FpHghD1UKPov5yGExnuVzkKI1HD9B5Q6mMwmuRL1SAA9PP7S+++G4xPwW0vvLGtSAvMyr4vV4XyF/YiitboYHcHOzM1ELoOLV1YsOxGo2hyurX6THQmYLnRbf+lsc/1x672UulueFEyIVScvNVBVDXwrrVUNd2Jd0FicWJF6erR+PHtX5nnketflefoleHbtUY1nZ3LxSeDf9N8fF1ajYzxDBnJLiknwNiJ8wojgWp85I9h2g/K2ISE4fXpqaflt3xaQp3nrQAE8bBfQ7Bk0kdhMsZcG6jZDdMwQpyz9okPE+LrN5byxaCe/3VZ6dZBps4GM/3cD6XAvLqtPzkVJr77buw9/AQ==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 0 29 L 0 0 L 140 0 L 140 29" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 29 L 0 160 L 140 160 L 140 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 29 L 140 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 15px; margin-left: 70px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">
+                                Customer
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="70" y="18" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    Customer
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 130px; height: 1px; padding-top: 95px; margin-left: 6px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 127px; overflow: hidden; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                id
+                                <br/>
+                                firstname
+                                <br/>
+                                lastname
+                                <br/>
+                                street
+                                <br/>
+                                streetNumber
+                                <br/>
+                                zip
+                                <br/>
+                                place
+                                <br/>
+                                country
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="6" y="98" fill="#000000" font-family="Helvetica" font-size="12px">
+                    id...
+                </text>
+            </switch>
+        </g>
+        <path d="M 410 29 L 410 0 L 550 0 L 550 29" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 29 L 410 160 L 550 160 L 550 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 29 L 550 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 15px; margin-left: 480px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">
+                                CarClass
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="480" y="18" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    CarClass
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 130px; height: 1px; padding-top: 95px; margin-left: 416px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 127px; overflow: hidden; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                id
+                                <br/>
+                                description
+                                <br/>
+                                feePerDay
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="416" y="98" fill="#000000" font-family="Helvetica" font-size="12px">
+                    id...
+                </text>
+            </switch>
+        </g>
+        <path d="M 190 29 L 190 0 L 330 0 L 330 29" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 29 L 190 160 L 330 160 L 330 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 29 L 330 29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 15px; margin-left: 260px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">
+                                Car
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="260" y="18" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    Car
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 130px; height: 1px; padding-top: 95px; margin-left: 196px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 127px; overflow: hidden; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                id
+                                <br/>
+                                licensePlate
+                                <br/>
+                                brand
+                                <br/>
+                                model
+                                <br/>
+                                carClass
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="196" y="98" fill="#000000" font-family="Helvetica" font-size="12px">
+                    id...
+                </text>
+            </switch>
+        </g>
+        <path d="M 190 330 L 65.9 330 L 65.94 167.42" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 65.94 162.17 L 69.44 169.17 L 65.94 167.42 L 62.44 169.17 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 265 250 L 265 230 L 265.04 167.42" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 265.04 162.17 L 268.54 169.17 L 265.04 167.42 L 261.54 169.16 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 279 L 190 250 L 330 250 L 330 279" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 279 L 190 410 L 330 410 L 330 279" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 190 279 L 330 279" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 265px; margin-left: 260px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">
+                                Reservation
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="260" y="268" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    Reservation
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 130px; height: 1px; padding-top: 345px; margin-left: 196px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 127px; overflow: hidden; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                id
+                                <br/>
+                                customer
+                                <br/>
+                                car
+                                <br/>
+                                startDate
+                                <br/>
+                                endDate
+                                <br/>
+                                isRentalContract
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="196" y="348" fill="#000000" font-family="Helvetica" font-size="12px">
+                    id...
+                </text>
+            </switch>
+        </g>
+        <path d="M 330 94.5 L 403.63 94.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 408.88 94.5 L 401.88 98 L 403.63 94.5 L 401.88 91 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

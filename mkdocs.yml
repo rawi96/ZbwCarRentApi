@@ -1,0 +1,8 @@
+site_name: Documentation
+site_url: https://example.com/
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+
