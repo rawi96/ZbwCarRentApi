@@ -1,40 +1,23 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="771px" height="649px" viewBox="-0.5 -0.5 771 649" content="&lt;mxfile&gt;&lt;diagram id=&quot;Z7wFx_hQZAtTPZEvF0XZ&quot; name=&quot;Page-1&quot;&gt;5ZnLcpswFIafhm0GI25Z2o7TzjSZSeuZXpayUUCNQIwQxvTpKwWJizFJ2qQ4LhsG/Rw40n8+IWQbYBnvPzCYRrc0QMSwzGBvgCvDsnwPiKMUykrwXLMSQoaDSpo1whr/QkrUYTkOUNYJ5JQSjtOuuKVJgra8o0HGaNENu6ekmzWFIeoJ6y0kffUbDnikhmV5jf4R4TDSmWfuZXUlhjpYjSSLYECLlgRWBlgySnl1Fu+XiEjvtC/VfdcDV+uOMZTwl9wAVMcyXurBoUCMVTUp4xENaQLJqlEXjOZJgOQTTNFqYm4oTYU4E+JPxHmpCgdzToUU8Zioq6JzrPwu778wPU8LPx4Fz68jrvYqRdUq2607xHCMOGJKrIYh+z7ohJIymrOtjlIV45CFSIVZbl0HwS+iIgsrRQxDBHK86z4fKpLCOq6+9Y5ikdkyFfSWr0qumHcuze4jqj6ou5qSzRmDZSsslQHZcJ6ZfZDHv+wS8Gfx4qTqgW61PGmkR6oGkFQW7yDJlXefJD497sRUSOVpHpP5llNR2MUOMY7FtLuBG0TuaIY5pokI2VDOadwKmBMcygtcAtgmjeac4AQt6xdBw8oRNOTj0L4l9SlQVw9NA6pdNK8D/U6L2m8C66DobW5alj/pKHBOO2e789V5Zrb+5cT0j0xM8MqJ+WKD3YkabI9lsDdRg52xDPYnavBr1+6XGqyTt1a1NdxGGwTZBmH5WXLWyxvoLm/1WjbG8mZb/z+7Fuiza5vHS/Lm7Orkh19kiWG5RHRmsRH0uqE8+4pYAQnPk7BfE0LEdkt6X0QC+HUKHwdXiA1f11mYpRWb93gvK7QYgPGIaYN81vsnDah14fQInYFjiIK3QBRMAFH7lIjaPUTnwo8HArNMcmqeC5gzzxuXTHsCZDqnJNM5SuYZIQmskZGcwHbVck+JpNtD8gvKENtB+T2ZGbL+1+J4ixGXJDEYZmfEq+2PzOsEdv/656sOrwNleXNedfIWr6uEYy6TXTMYo4Kyh/fFpO0/vyH6h0TOeobdrkV7/flGHK8W78sr1x3RK9Fs/iypfp1u/nECq98=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="351px" height="741px" viewBox="-0.5 -0.5 351 741" content="&lt;mxfile&gt;&lt;diagram id=&quot;Z7wFx_hQZAtTPZEvF0XZ&quot; name=&quot;Page-1&quot;&gt;5Zhbb5swFMc/DdL2MgGGpHlMSNdJ66RpUbXt0YET8Go4yJhc9ulngylQaJdpbdNLHojP/xxj++fbERYJ0v2FoHnyBSPglmtHe4ssLded+J56auFQC9OJXQuxYFEtOa2wYr/BiE1YySIoeoESkUuW98UQswxC2dOoELjrh22Q91vNaQwDYRVSPlS/s0gmtXrmTlv9E7A4aVp2JrPas6bhdSywzEx7lktm1a92p7R5lxlokdAIdx2JnFskEIiyLqX7ALhG22Cr6328w3vTbwGZPKaCd1bX2FJeQtPlqmPy0MCohgO6gm2RxS5hElY5DbV3p2ZfaYlMubIcVdwwzgPkKJSdYaaCFsM+mW5uQUjYdyTTxwvAFKQ4qBDjJbbhZdaTQ4y9a2fHOTNa0pmZqWdEalZEfPPulooqGDDjkPzJgAlEar0YE4VMMMaM8vNWXfSptTGXiLlh9QukPJjFT0uJfZKKljj8MPUr46c2PviNudx3ncuDse7EXWApwmaBm3mXVMRgwnwTp8d276QI4FSybX+v/Bfg2ZsA7M1OBbg5fl85YN8+GWDnbQB2TwZ4eC+9SsDkVICdYSawomGyBirWoK58MeCvcpdcF8uUz0Opb/yFvtGZSqMu6Rr4VyyYZJipkDVKiWknYM5ZrB0Sb+UPWErOMghuErt7cR6fQTheP4PwRjKIyUgC4bgPkEA0B3+H7VWgRjtX2lKTtW+jtq9plqm/z3oBZ/VId5TLqvwu+Ha1fD/cD5yr/Bj+nqPRIq/Zbthe744HydDIrQzNH8nQ3McC3DTWA+weA3iu9vw1p0XxIim7syel7IxQJsdSLl4g37FT4hH5uiN8vX/hu7HUfCwC7QF1ivZOEAEFiC0Doa3nDN2fPil0MgLd70KvCLasFdguTQmFmQDdkXWC/LnznbqPyFeZ7deLytf5QkTO/wA=&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(153, 153, 153);">
     <defs/>
     <g>
-        <path d="M 80 567 L 120 567 L 203.64 567.03" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 208.89 567.03 L 201.89 570.53 L 203.64 567.03 L 201.89 563.53 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="50" cy="523" rx="15" ry="15" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <path d="M 50 538 L 50 588 M 50 548 L 20 548 M 50 548 L 80 548 M 50 588 L 20 628 M 50 588 L 80 628" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="170" y="0" width="180" height="740" fill="none" stroke="#000000" pointer-events="all"/>
+        <path d="M 70 360 L 193.63 360" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 198.88 360 L 191.88 363.5 L 193.63 360 L 191.88 356.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 70 360 L 135 360 L 135 80 L 193.63 80" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 198.88 80 L 191.88 83.5 L 193.63 80 L 191.88 76.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 70 360 L 135 360 L 135 220 L 193.63 220" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 198.88 220 L 191.88 223.5 L 193.63 220 L 191.88 216.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 70 360 L 135 360 L 135 500 L 193.63 500" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 198.88 500 L 191.88 503.5 L 193.63 500 L 191.88 496.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 70 360 L 135 360 L 135 650 L 193.63 650" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 198.88 650 L 191.88 653.5 L 193.63 650 L 191.88 646.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="40" cy="315" rx="15" ry="15" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 40 330 L 40 380 M 40 340 L 10 340 M 40 340 L 70 340 M 40 380 L 10 420 M 40 380 L 70 420" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 635px; margin-left: 50px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
-                                Kunde
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="50" y="647" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Kunde
-                </text>
-            </switch>
-        </g>
-        <path d="M 70 298 L 135 298 L 135 65.5 L 193.63 65.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 198.88 65.5 L 191.88 69 L 193.63 65.5 L 191.88 62 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 70 298 L 135 298 L 135 220.5 L 193.63 220.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 198.88 220.5 L 191.88 224 L 193.63 220.5 L 191.88 217 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 70 298 L 135 298 L 135 370.5 L 193.63 370.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 198.88 370.5 L 191.88 374 L 193.63 370.5 L 191.88 367 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 70 298 L 135 298 L 135 530.5 L 193.63 530.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 198.88 530.5 L 191.88 534 L 193.63 530.5 L 191.88 527 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="40" cy="253" rx="15" ry="15" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <path d="M 40 268 L 40 318 M 40 278 L 10 278 M 40 278 L 70 278 M 40 318 L 10 358 M 40 318 L 70 358" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 365px; margin-left: 40px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 427px; margin-left: 40px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
                                 Sachbearbeiter
@@ -42,122 +25,93 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="40" y="377" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                <text x="40" y="439" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
                     Sachbearbe...
                 </text>
             </switch>
         </g>
-        <path d="M 330 65.5 L 395 65.5 L 395 303 L 453.63 303" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 458.88 303 L 451.88 306.5 L 453.63 303 L 451.88 299.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="265" cy="65.5" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <ellipse cx="260" cy="80" rx="60" ry="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 66px; margin-left: 201px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 80px; margin-left: 201px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Kunden
-                                <br/>
-                                Verwaltung
+                                UC1: Der Sachbearbeiter kann Kunden verwalten (CRUD)
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="265" y="69" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Kunden...
+                <text x="260" y="84" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    UC1: Der Sachbearbei...
                 </text>
             </switch>
         </g>
-        <path d="M 330 220.5 L 395 220.5 L 395 303 L 453.63 303" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 458.88 303 L 451.88 306.5 L 453.63 303 L 451.88 299.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="265" cy="220.5" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <ellipse cx="260" cy="220" rx="60" ry="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 221px; margin-left: 201px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 220px; margin-left: 201px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Autoklassen Verwaltung
+                                UC2: Der Sachbearbeiter kann Autoklassen verwalten (CRUD)
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="265" y="224" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Autoklassen Verwaltung
+                <text x="260" y="224" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    UC2: Der Sachbearbei...
                 </text>
             </switch>
         </g>
-        <path d="M 330 370.5 L 395 370.5 L 395 303 L 453.63 303" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 458.88 303 L 451.88 306.5 L 453.63 303 L 451.88 299.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="265" cy="370.5" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <ellipse cx="260" cy="360" rx="60" ry="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 371px; margin-left: 201px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 360px; margin-left: 201px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Auto Verwaltung
+                                UC3: Der Sachbearbeiter kann Autos verwalten (CRUD)
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="265" y="374" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Auto Verwaltung
+                <text x="260" y="364" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    UC3: Der Sachbearbei...
                 </text>
             </switch>
         </g>
-        <path d="M 330 530.5 L 395 530.5 L 395 303 L 453.63 303" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 458.88 303 L 451.88 306.5 L 453.63 303 L 451.88 299.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="265" cy="530.5" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <ellipse cx="260" cy="500" rx="60" ry="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 531px; margin-left: 201px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 500px; margin-left: 201px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Reservations / Mietvertrags Verwaltung
+                                UC4: Der Sachbearbeiter kann Autos für einen Kunden reservieren
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="265" y="534" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Reservations / Mietve...
+                <text x="260" y="504" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    UC4: Der Sachbearbei...
                 </text>
             </switch>
         </g>
-        <path d="M 590 303 L 633.63 303" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 638.88 303 L 631.88 306.5 L 633.63 303 L 631.88 299.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="525" cy="303" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <ellipse cx="260" cy="650" rx="60" ry="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 303px; margin-left: 461px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 650px; margin-left: 201px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Entity Framework
+                                UC5: Der Kunde kann ein reserviertes Auto abholen
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="525" y="307" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Entity Framework
-                </text>
-            </switch>
-        </g>
-        <ellipse cx="705" cy="303" rx="65" ry="65" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 303px; margin-left: 641px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                MS SQL DB
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="705" y="307" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    MS SQL DB
+                <text x="260" y="654" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    UC5: Der Kunde kann...
                 </text>
             </switch>
         </g>

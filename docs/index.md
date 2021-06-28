@@ -63,6 +63,7 @@
         - Die Webapplikation kann dann entsprechend mit einer Erfolgsmeldung darauf reagieren.
 
 # Use Cases im "Brief" Format
+<img src="./images/usecases.drawio.svg" alt="Usecases"/>
 
 ## UC1 Der Sachbearbeiter kann Kunden verwalten (CRUD)
 - Der Sachbearbeiter kann im Webclient Kunden:
@@ -133,7 +134,7 @@
         - Startdatum
         - Enddatum
 
-## UC5 Kunde holt Auto ab
+## UC5 Der Kunde kann ein reserviertes Auto abholen
 - Am Startdatum kommt der Kunde in die Garage und der Sachbearbeiter klickt bei der entsprechenden Reservation:
     - Mietvertrag generieren
     - Dieser Button wandelt die Reservation in einen Mietvertrag um.
@@ -144,3 +145,31 @@
 # Domain Model
 <img src="./images/domainmodel.drawio.svg" alt="Domain Model"/>
 
+# Views
+
+## Deployment View
+<img src="./images/deploymentview.drawio.svg" alt="Deploymentview"/>
+
+## Logical View
+
+## Implementation View
+
+```
+|
++---docs
+|   |
+|   \---images
+|
+\---source
+    |
+    +---src
+    |   \---CarRentApi
+    |       |
+    |       +---CarManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+    \---tests
+        \---CarRentApi.Tests
+```
