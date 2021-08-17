@@ -1,3 +1,7 @@
+using CarRentApi.CarManagement;
+using CarRentApi.CarManagement.Application;
+using CarRentApi.CarManagement.Infrastructure;
+using CarRentApi.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -22,6 +26,11 @@ namespace CarRentApi
         {
 
             services.AddControllers();
+
+            services.AddTransient<CarClassService>();
+            services.AddScoped<IRepoBase<CarClass>, CarClassRepo>();
+
+            services.AddAutoMapper(typeof(CarMapper));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarRentApi", Version = "v1" });
