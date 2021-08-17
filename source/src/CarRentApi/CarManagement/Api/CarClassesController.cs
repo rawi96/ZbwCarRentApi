@@ -11,8 +11,8 @@ namespace CarRentApi.CarManagement.Api
     [ApiController]
     public class CarClassesController : Controller
     {
-        private CarClassService _service;
-        private IMapper _mapper;
+        private readonly CarClassService _service;
+        private readonly IMapper _mapper;
 
         public CarClassesController(CarClassService service, IMapper mapper)
         {
@@ -85,11 +85,6 @@ namespace CarRentApi.CarManagement.Api
         }
 
         private CarClass MapToDbObject(CarClassRequestDto entity)
-        {
-            return _mapper.Map<CarClass>(entity);
-        }
-
-        private CarClass MapToDbObject(CarClassResponseDto entity)
         {
             return _mapper.Map<CarClass>(entity);
         }

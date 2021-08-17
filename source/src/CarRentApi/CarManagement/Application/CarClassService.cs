@@ -9,7 +9,7 @@ namespace CarRentApi.CarManagement.Application
 {
     public class CarClassService
     {
-        private IRepoBase<CarClass> _repository;
+        private readonly IRepoBase<CarClass> _repository;
 
         public CarClassService(IRepoBase<CarClass> repository)
         {
