@@ -25,8 +25,7 @@
     - Entity Framework
     - Testing
         - x-Unit
-        - Moq
-        - FluentAssertion
+        - FakeItEasy
 - Database
     - Microsoft SQL
 - CI/CD
@@ -45,8 +44,7 @@
 ### Aus welchen Komponenten und Services besteht das System?
 - Verwaltungen
     - Kundenverwaltung
-    - Autoklassenverwaltung
-    - Autoverwaltung
+    - Autoverwaltung (inkl. Autoklassen)
     - Reservations- / Mietvertrags-Verwaltung
 - Sämtliche Verwaltungen greifen via EF auf die DB.
 
@@ -166,6 +164,18 @@
     |   \---CarRentApi
     |       |
     |       +---CarManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+
+            +---CustomerManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+            
+            +---ReservationsManagement
     |       |   +---Api
     |       |   +---Application
     |       |   +---Domain
