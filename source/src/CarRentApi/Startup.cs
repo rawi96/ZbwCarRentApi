@@ -28,9 +28,12 @@ namespace CarRentApi
             services.AddControllers();
 
             services.AddTransient<CarClassService>();
-            services.AddScoped<IRepoBase<CarClass>, CarClassRepo>();
+            services.AddScoped<CarClassRepo>();
 
-            services.AddAutoMapper(typeof(CarMapper));
+            services.AddTransient<CarService>();
+            services.AddScoped<CarRepo>();
+
+            services.AddAutoMapper(typeof(Mapper));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarRentApi", Version = "v1" });

@@ -2,11 +2,11 @@
 
 namespace CarRentApi.Common
 {
-    public interface IRepoBase<T>
+    public interface IBaseRepo<T>
     {
         List<T> GetAll();
         
-        T GetById(object id);
+        T GetById(int id);
         
         T Add(T obj);
         

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CarRentApi.Common;
+﻿using CarRentApi.Common;
 
 namespace CarRentApi.CarManagement.Infrastructure
 {
-    public class CarClassRepo : RepoBase<CarClass>
+    public class CarClassRepo : BaseRepo<CarClass>
     {
 
     }

@@ -12,16 +12,10 @@ namespace CarRentApi.Common
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=.; Database=Cars3; Trusted_Connection=True");
-
-            //For Debugging
-            //optionsBuilder.LogTo(Console.WriteLine); 
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Car>()
-            //            .HasOne(c => c.CarClass);
-
             var luxury = new CarClass()
             {
                 Id = 1000,

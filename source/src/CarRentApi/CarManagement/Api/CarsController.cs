@@ -8,12 +8,12 @@ namespace CarRentApi.CarManagement.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarClassesController : Controller
+    public class CarsController : Controller
     {
-        private readonly CarClassService _service;
+        private readonly CarService _service;
         private readonly IMapper _mapper;
 
-        public CarClassesController(CarClassService service, IMapper mapper)
+        public CarsController(CarService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
@@ -39,15 +39,17 @@ namespace CarRentApi.CarManagement.Api
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] CarClassRequestDto entity)
+        public IActionResult Post([FromBody] CarRequestDto entity)
         {
+            //TODO: If the user tries to set a invalid carClassId return a HTTP 400.
             var dbObject = _service.Add(MapToDbObject(entity));
-            return Created("api/carclasses/" + dbObject.Id, dbObject);
+            return Created("api/cars/" + dbObject.Id, MapToResponseDto(dbObject));
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] CarClassRequestDto entity)
+        public IActionResult Put(int id, [FromBody] CarRequestDto entity)
         {
+            //TODO: If the user tries to set a invalid carClassId return a HTTP 400.
             var entityToUpdate = _service.GetById(id);
             
             if (entityToUpdate == null)
@@ -63,7 +65,6 @@ namespace CarRentApi.CarManagement.Api
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            //TODO: If the user tries to delete a CarClass which is still used from cars return a HTTP 400.
             var entityToDelete = _service.GetById(id);
             if (entityToDelete == null)
             {
@@ -73,19 +74,19 @@ namespace CarRentApi.CarManagement.Api
             return Ok();
         }
 
-        private IEnumerable<CarClassResponseDto> MapToResponseDto(IEnumerable<CarClass> list)
+        private IEnumerable<CarResponseDto> MapToResponseDto(IEnumerable<Car> list)
         {
-            return list.Select(entity => _mapper.Map<CarClassResponseDto>(entity)).ToList();
+            return list.Select(entity => _mapper.Map<CarResponseDto>(entity)).ToList();
         }
 
-        private CarClassResponseDto MapToResponseDto(CarClass entity)
+        private CarResponseDto MapToResponseDto(Car entity)
         {
-            return _mapper.Map<CarClassResponseDto>(entity);
+            return _mapper.Map<CarResponseDto>(entity);
         }
 
-        private CarClass MapToDbObject(CarClassRequestDto entity)
+        private Car MapToDbObject(CarRequestDto entity)
         {
-            return _mapper.Map<CarClass>(entity);
+            return _mapper.Map<Car>(entity);
         }
     }
 }

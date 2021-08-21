@@ -4,10 +4,10 @@ using System.Linq;
 
 namespace CarRentApi.Common
 {
-    public class RepoBase<T> : IRepoBase<T> where T : class
+    public class BaseRepo<T> : IBaseRepo<T> where T : class
     {
 
-        public List<T> GetAll()
+        public virtual List<T> GetAll()
         {
             using (var context = new Context())
             { 
@@ -15,8 +15,8 @@ namespace CarRentApi.Common
                 return table.ToList();
             }
         }
-        
-        public T GetById(object id)
+
+        public virtual T GetById(int id)
         {
             using (var context = new Context())
             {
@@ -24,8 +24,8 @@ namespace CarRentApi.Common
                 return table.Find(id);
             }
         }
-        
-        public T Add(T obj)
+
+        public virtual T Add(T obj)
         {
             using (var context = new Context())
             {
@@ -36,20 +36,19 @@ namespace CarRentApi.Common
 
             }
         }
-        
-        public T Update(T obj)
+
+        public virtual T Update(T obj)
         {
             using (var context = new Context())
             {
                 var table = context.Set<T>();
-                var attach = table.Attach(obj);
-                context.Entry(obj).State = EntityState.Modified;
+                var attach = table.Update(obj);
                 context.SaveChanges();
                 return attach.Entity;
             }
         }
-        
-        public void Delete(T obj)
+
+        public virtual void Delete(T obj)
         {
             using (var context = new Context())
             {

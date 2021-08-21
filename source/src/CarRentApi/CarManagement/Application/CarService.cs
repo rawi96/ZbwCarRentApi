@@ -3,36 +3,36 @@ using CarRentApi.CarManagement.Infrastructure;
 
 namespace CarRentApi.CarManagement.Application
 {
-    public class CarClassService
+    public class CarService
     {
-        private readonly CarClassRepo _repository;
+        private readonly CarRepo _repository;
 
-        public CarClassService(CarClassRepo repository)
+        public CarService(CarRepo repository)
         {
             _repository = repository;
         }
 
-        public List<CarClass> GetAll()
+        public List<Car> GetAll()
         {
             return _repository.GetAll();
         }
 
-        public CarClass GetById(int id)
+        public Car GetById(int id)
         {
             return _repository.GetById(id);
         }
 
-        public CarClass Add(CarClass entity)
+        public Car Add(Car entity)
         {
             return _repository.Add(entity);
         }
 
-        public void Delete(CarClass entity)
+        public void Delete(Car entity)
         {
             _repository.Delete(entity);
         }
 
-        public CarClass Update(CarClass entity)
+        public Car Update(Car entity)
         {
             return _repository.Update(entity);
         }
