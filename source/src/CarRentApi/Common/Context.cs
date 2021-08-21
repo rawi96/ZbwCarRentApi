@@ -1,4 +1,5 @@
 ﻿using CarRentApi.CarManagement;
+using CarRentApi.CustomerManagement;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
@@ -8,10 +9,11 @@ namespace CarRentApi.Common
     {
         public DbSet<CarClass> CarClasses { get; set; }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=.; Database=Cars3; Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Data Source=.; Database=carrentapiv1; Trusted_Connection=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -56,6 +58,30 @@ namespace CarRentApi.Common
                 CarClassId = luxury.Id
             };
 
+            var raphael = new Customer()
+            {
+                Id = 1000,
+                FirstName = "Raphael",
+                LastName = "Wirth",
+                Street = "Musterstrasse",
+                StreetNumber = "12a",
+                Zip = 9000,
+                Place = "St. Gallen",
+                Country = "Switzerland"
+            };
+
+            var hans = new Customer()
+            {
+                Id = 1001,
+                FirstName = "Hans",
+                LastName = "Müller",
+                Street = "Bahnhofweg",
+                StreetNumber = "24",
+                Zip = 9403,
+                Place = "Goldach",
+                Country = "Switzerland"
+            };
+
             List<CarClass> carClasses = new List<CarClass>
             {
                 luxury,
@@ -69,8 +95,15 @@ namespace CarRentApi.Common
                 audiA8
             };
 
+            List<Customer> customers = new List<Customer>
+            {
+                raphael,
+                hans
+            };
+
             carClasses.ForEach(carClass => modelBuilder.Entity<CarClass>().HasData(carClass));
             cars.ForEach(car => modelBuilder.Entity<Car>().HasData(car));
+            customers.ForEach(customer => modelBuilder.Entity<Customer>().HasData(customer));
         }
     }
 }

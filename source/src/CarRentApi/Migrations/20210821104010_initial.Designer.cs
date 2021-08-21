@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRentApi.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210726131707_initialCreate")]
-    partial class initialCreate
+    [Migration("20210821104010_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,6 +40,8 @@ namespace CarRentApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CarClassId");
 
                     b.ToTable("Cars");
 
@@ -98,6 +100,74 @@ namespace CarRentApi.Migrations
                             Description = "Basic",
                             PricePerDay = 50.0
                         });
+                });
+
+            modelBuilder.Entity("CarRentApi.CustomerManagement.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Place")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Street")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StreetNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Zip")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Customers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1000,
+                            Country = "Switzerland",
+                            FirstName = "Raphael",
+                            LastName = "Wirth",
+                            Place = "St. Gallen",
+                            Street = "Musterstrasse",
+                            StreetNumber = "12a",
+                            Zip = 9000
+                        },
+                        new
+                        {
+                            Id = 1001,
+                            Country = "Switzerland",
+                            FirstName = "Hans",
+                            LastName = "Müller",
+                            Place = "Goldach",
+                            Street = "Bahnhofweg",
+                            StreetNumber = "24",
+                            Zip = 9403
+                        });
+                });
+
+            modelBuilder.Entity("CarRentApi.CarManagement.Car", b =>
+                {
+                    b.HasOne("CarRentApi.CarManagement.CarClass", "CarClass")
+                        .WithMany()
+                        .HasForeignKey("CarClassId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CarClass");
                 });
 #pragma warning restore 612, 618
         }
