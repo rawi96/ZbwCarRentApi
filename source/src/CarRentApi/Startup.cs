@@ -39,6 +39,16 @@ namespace CarRentApi
             services.AddTransient<CustomerService>();
             services.AddScoped<CustomerRepo>();
 
+            services.AddTransient<CarClassRepo>();
+            services.AddScoped<ContextFactory>();
+
+            services.AddTransient<CarRepo>();
+            services.AddScoped<ContextFactory>();
+
+            services.AddTransient<CustomerRepo>();
+            services.AddScoped<ContextFactory>();
+
+
             services.AddAutoMapper(typeof(CarManagement.Infrastructure.Mapper));
             services.AddAutoMapper(typeof(CustomerManagement.Infrastructure.Mapper));
 

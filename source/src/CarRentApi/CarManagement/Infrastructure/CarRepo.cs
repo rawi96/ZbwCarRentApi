@@ -7,9 +7,15 @@ namespace CarRentApi.CarManagement.Infrastructure
 {
     public class CarRepo : BaseRepo<Car>
     {
+
+        public CarRepo(ContextFactory contextFactory) : base(contextFactory)
+        {
+
+        }
+
         public override List<Car> GetAll()
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 return context.Cars.Include(c => c.CarClass).ToList();
             }
@@ -17,7 +23,7 @@ namespace CarRentApi.CarManagement.Infrastructure
 
         public override Car GetById(int id)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 return context.Cars.Include(c => c.CarClass).FirstOrDefault(c => c.Id == id);
             }
@@ -25,7 +31,7 @@ namespace CarRentApi.CarManagement.Infrastructure
 
         public override Car Add(Car obj)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var attach = context.Cars.Attach(obj);
                 context.SaveChanges();
@@ -35,7 +41,7 @@ namespace CarRentApi.CarManagement.Infrastructure
 
         public override Car Update(Car obj)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var attach = context.Cars.Update(obj);
                 context.SaveChanges();

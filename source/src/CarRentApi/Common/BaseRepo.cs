@@ -6,10 +6,16 @@ namespace CarRentApi.Common
 {
     public class BaseRepo<T> : IBaseRepo<T> where T : class
     {
+        public readonly ContextFactory _contextFactory;
+
+        public BaseRepo(ContextFactory contextFactory)
+        {
+            _contextFactory = contextFactory;
+        }
 
         public virtual List<T> GetAll()
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             { 
                 var table = context.Set<T>();
                 return table.ToList();
@@ -18,7 +24,7 @@ namespace CarRentApi.Common
 
         public virtual T GetById(int id)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var table = context.Set<T>();
                 return table.Find(id);
@@ -27,7 +33,7 @@ namespace CarRentApi.Common
 
         public virtual T Add(T obj)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var table = context.Set<T>();
                 var attach = table.Attach(obj);
@@ -39,7 +45,7 @@ namespace CarRentApi.Common
 
         public virtual T Update(T obj)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var table = context.Set<T>();
                 var attach = table.Update(obj);
@@ -50,7 +56,7 @@ namespace CarRentApi.Common
 
         public virtual void Delete(T obj)
         {
-            using (var context = new Context())
+            using (var context = _contextFactory.GetNewContext())
             {
                 var table = context.Set<T>();
                 table.Remove(obj);
