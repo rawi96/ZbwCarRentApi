@@ -1,19 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CarRentApi.CarManagement.Application;
 using AutoMapper;
 using System.Linq;
 using System.Collections.Generic;
+using CarRentApi.ReservationManagement.Application;
 
-namespace CarRentApi.CarManagement.Api
+namespace CarRentApi.ReservationManagement.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarsController : Controller
+    public class ReservationsController : Controller
     {
-        private readonly CarService _service;
+        private readonly ReservationService _service;
         private readonly IMapper _mapper;
 
-        public CarsController(CarService service, IMapper mapper)
+        public ReservationsController(ReservationService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
@@ -39,17 +39,17 @@ namespace CarRentApi.CarManagement.Api
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] CarRequestDto entity)
+        public IActionResult Post([FromBody] ReservationRequestDto entity)
         {
-            //TODO: If the user tries to set a invalid carClassId return a HTTP 400.
+            //TODO: If the user tries to set a invalid customerId or carId return a HTTP 400.
             var dbObject = _service.Add(MapToDbObject(entity));
-            return Created("api/cars/" + dbObject.Id, MapToResponseDto(dbObject));
+            return Created("api/reservations/" + dbObject.Id, dbObject);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] CarRequestDto entity)
+        public IActionResult Put(int id, [FromBody] ReservationRequestDto entity)
         {
-            //TODO: If the user tries to set a invalid carClassId return a HTTP 400.
+            //TODO: If the user tries to set a invalid customerId or carId return a HTTP 400.
             var entityToUpdate = _service.GetById(id);
             
             if (entityToUpdate == null)
@@ -65,7 +65,6 @@ namespace CarRentApi.CarManagement.Api
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            //TODO: If the user tries to delete a car which still has reservations return a HTTP 400.
             var entityToDelete = _service.GetById(id);
             if (entityToDelete == null)
             {
@@ -75,19 +74,19 @@ namespace CarRentApi.CarManagement.Api
             return Ok();
         }
 
-        private IEnumerable<CarResponseDto> MapToResponseDto(IEnumerable<Car> list)
+        private IEnumerable<ReservationResponseDto> MapToResponseDto(IEnumerable<Reservation> list)
         {
-            return list.Select(entity => _mapper.Map<CarResponseDto>(entity)).ToList();
+            return list.Select(entity => _mapper.Map<ReservationResponseDto>(entity)).ToList();
         }
 
-        private CarResponseDto MapToResponseDto(Car entity)
+        private ReservationResponseDto MapToResponseDto(Reservation entity)
         {
-            return _mapper.Map<CarResponseDto>(entity);
+            return _mapper.Map<ReservationResponseDto>(entity);
         }
 
-        private Car MapToDbObject(CarRequestDto entity)
+        private Reservation MapToDbObject(ReservationRequestDto entity)
         {
-            return _mapper.Map<Car>(entity);
+            return _mapper.Map<Reservation>(entity);
         }
     }
 }

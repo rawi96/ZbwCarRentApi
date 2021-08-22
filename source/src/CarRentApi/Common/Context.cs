@@ -1,6 +1,8 @@
 ﻿using CarRentApi.CarManagement;
 using CarRentApi.CustomerManagement;
+using CarRentApi.ReservationManagement;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
 namespace CarRentApi.Common
@@ -10,10 +12,11 @@ namespace CarRentApi.Common
         public DbSet<CarClass> CarClasses { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=.; Database=carrentapiv1; Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Data Source=.; Database=CarRentApiV3; Trusted_Connection=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -82,6 +85,15 @@ namespace CarRentApi.Common
                 Country = "Switzerland"
             };
 
+            var raphaelVolvoTwoDays = new Reservation()
+            {
+                Id = 1000,
+                CustomerId = 1000,
+                CarId = 1000,
+                StartDate = new DateTime(2021, 12, 12),
+                EndDate = new DateTime(2021, 12, 13)
+            };
+
             List<CarClass> carClasses = new List<CarClass>
             {
                 luxury,
@@ -101,9 +113,15 @@ namespace CarRentApi.Common
                 hans
             };
 
+            List<Reservation> reservations = new List<Reservation>
+            {
+                raphaelVolvoTwoDays
+            };
+
             carClasses.ForEach(carClass => modelBuilder.Entity<CarClass>().HasData(carClass));
             cars.ForEach(car => modelBuilder.Entity<Car>().HasData(car));
             customers.ForEach(customer => modelBuilder.Entity<Customer>().HasData(customer));
+            reservations.ForEach(reservation => modelBuilder.Entity<Reservation>().HasData(reservations));
         }
     }
 }

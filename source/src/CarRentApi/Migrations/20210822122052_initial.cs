@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarRentApi.Migrations
 {
@@ -61,6 +62,34 @@ namespace CarRentApi.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Reservations",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
+                    CarId = table.Column<int>(type: "int", nullable: false),
+                    StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    EndDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Reservations", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Reservations_Cars_CarId",
+                        column: x => x.CarId,
+                        principalTable: "Cars",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Reservations_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "CarClasses",
                 columns: new[] { "Id", "Description", "PricePerDay" },
@@ -90,14 +119,32 @@ namespace CarRentApi.Migrations
                 columns: new[] { "Id", "Brand", "CarClassId", "LicensePlate", "Model" },
                 values: new object[] { 1000, "Volvo", 1001, "SG 456845", "V50" });
 
+            migrationBuilder.InsertData(
+                table: "Reservations",
+                columns: new[] { "Id", "CarId", "CustomerId", "EndDate", "StartDate" },
+                values: new object[] { 1000, 1000, 1000, new DateTime(2021, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Cars_CarClassId",
                 table: "Cars",
                 column: "CarClassId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Reservations_CarId",
+                table: "Reservations",
+                column: "CarId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Reservations_CustomerId",
+                table: "Reservations",
+                column: "CustomerId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Reservations");
+
             migrationBuilder.DropTable(
                 name: "Cars");
 

@@ -4,6 +4,8 @@ using CarRentApi.CarManagement.Infrastructure;
 using CarRentApi.Common;
 using CarRentApi.CustomerManagement.Application;
 using CarRentApi.CustomerManagement.Infrastructure;
+using CarRentApi.ReservationManagement.Application;
+using CarRentApi.ReservationManagement.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,23 +31,28 @@ namespace CarRentApi
 
             services.AddControllers();
 
-
             services.AddTransient<CarClassService>();
             services.AddScoped<CarClassRepo>();
-
-            services.AddTransient<CarService>();
-            services.AddScoped<CarRepo>();
-
-            services.AddTransient<CustomerService>();
-            services.AddScoped<CustomerRepo>();
 
             services.AddTransient<CarClassRepo>();
             services.AddScoped<ContextFactory>();
 
+            services.AddTransient<CarService>();
+            services.AddScoped<CarRepo>();
+
             services.AddTransient<CarRepo>();
             services.AddScoped<ContextFactory>();
 
+            services.AddTransient<CustomerService>();
+            services.AddScoped<CustomerRepo>();
+
             services.AddTransient<CustomerRepo>();
+            services.AddScoped<ContextFactory>();
+
+            services.AddTransient<ReservationService>();
+            services.AddScoped<ReservationRepo>();
+
+            services.AddTransient<ReservationRepo>();
             services.AddScoped<ContextFactory>();
 
 

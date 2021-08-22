@@ -37,29 +37,13 @@ namespace CarRentApi.Tests.CarManagement.infrastructure
 
             var awesome = new CarClass()
             {
-                Id = 1001,
+                Id = 2000,
                 Description = "Awesome",
                 PricePerDay = 100
             };
             var added = carClassRepo.Add(awesome);
 
             Assert.Equal(awesome.Description, added.Description);
-        }
-
-        [Fact]
-        public void Update_ReturnsValidObject()
-        {
-            var carClassRepo = new CarClassRepo(new MockContextFactory());
-
-            var awesome = new CarClass()
-            {
-                Id = 1001,
-                Description = "Awesome",
-                PricePerDay = 100
-            };
-            var updated = carClassRepo.Update(awesome);
-
-            Assert.Equal(awesome.Description, updated.Description);
         }
     }
 }
