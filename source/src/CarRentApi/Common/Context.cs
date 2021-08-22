@@ -16,7 +16,7 @@ namespace CarRentApi.Common
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=.; Database=CarRentApiV3; Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Data Source=.; Database=CarRentApiV5; Trusted_Connection=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -91,7 +91,8 @@ namespace CarRentApi.Common
                 CustomerId = 1000,
                 CarId = 1000,
                 StartDate = new DateTime(2021, 12, 12),
-                EndDate = new DateTime(2021, 12, 13)
+                EndDate = new DateTime(2021, 12, 13),
+                IsContract = false
             };
 
             List<CarClass> carClasses = new List<CarClass>

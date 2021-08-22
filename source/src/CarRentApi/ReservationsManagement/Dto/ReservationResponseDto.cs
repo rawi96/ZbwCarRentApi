@@ -11,5 +11,6 @@ namespace CarRentApi.ReservationManagement
         public virtual CarResponseDto Car { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public bool IsContract { get; set; }
     }
 }

@@ -174,6 +174,9 @@ namespace CarRentApi.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsContract")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
@@ -192,6 +195,7 @@ namespace CarRentApi.Migrations
                             CarId = 1000,
                             CustomerId = 1000,
                             EndDate = new DateTime(2021, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsContract = false,
                             StartDate = new DateTime(2021, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });

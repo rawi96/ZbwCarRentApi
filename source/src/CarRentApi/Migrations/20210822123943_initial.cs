@@ -71,7 +71,8 @@ namespace CarRentApi.Migrations
                     CustomerId = table.Column<int>(type: "int", nullable: false),
                     CarId = table.Column<int>(type: "int", nullable: false),
                     StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EndDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsContract = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -121,8 +122,8 @@ namespace CarRentApi.Migrations
 
             migrationBuilder.InsertData(
                 table: "Reservations",
-                columns: new[] { "Id", "CarId", "CustomerId", "EndDate", "StartDate" },
-                values: new object[] { 1000, 1000, 1000, new DateTime(2021, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+                columns: new[] { "Id", "CarId", "CustomerId", "EndDate", "IsContract", "StartDate" },
+                values: new object[] { 1000, 1000, 1000, new DateTime(2021, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), false, new DateTime(2021, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Cars_CarClassId",
