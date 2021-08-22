@@ -148,8 +148,6 @@
 ## Deployment View
 <img src="./images/deploymentview.drawio.svg" alt="Deploymentview"/>
 
-## Logical View
-
 ## Implementation View
 
 ```
