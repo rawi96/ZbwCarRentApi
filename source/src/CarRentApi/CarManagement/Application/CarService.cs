@@ -12,27 +12,27 @@ namespace CarRentApi.CarManagement.Application
             _repository = repository;
         }
 
-        public List<Car> GetAll()
+        public virtual List<Car> GetAll()
         {
             return _repository.GetAll();
         }
 
-        public Car GetById(int id)
+        public virtual Car GetById(int id)
         {
             return _repository.GetById(id);
         }
 
-        public Car Add(Car entity)
+        public virtual Car Add(Car entity)
         {
             return _repository.Add(entity);
         }
 
-        public void Delete(Car entity)
+        public virtual void Delete(Car entity)
         {
             _repository.Delete(entity);
         }
 
-        public Car Update(Car entity)
+        public virtual Car Update(Car entity)
         {
             return _repository.Update(entity);
         }
