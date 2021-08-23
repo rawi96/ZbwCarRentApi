@@ -16,7 +16,7 @@ namespace CarRentApi.Tests.CarManagement.infrastructure
 
             var retrieved = reservationRepo.GetAll();
 
-            Assert.Equal(1, retrieved.Count);
+            Assert.Single(retrieved);
             Assert.Equal("Raphael", retrieved[0].Customer.FirstName);
         }
 
