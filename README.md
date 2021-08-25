@@ -29,3 +29,7 @@ To get a local copy up and running follow these simple steps.
 
 _[Documentation](docs/index.md)_
 
+## Sonar
+
+[Link to Sonar](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
+
