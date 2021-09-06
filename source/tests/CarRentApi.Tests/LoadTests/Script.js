@@ -1,10 +1,17 @@
 ﻿import http from 'k6/http';
-import { sleep } from 'k6';
+import { check, sleep } from 'k6';
+
 export let options = {
-    vus: 10,
-    duration: '30s',
+    stages: [
+        { duration: '6s', target: 20 },
+        { duration: '12', target: 50 },
+        { duration: '12s', target: 100 },
+        { duration: '6s', target: 0 },
+    ],
 };
+
 export default function () {
-    http.get('https://localhost:44374/api/Cars/1000');
+    let res = http.get('https://httpbin.org/');
+    check(res, { 'status was 200': (r) => r.status == 200 });
     sleep(1);
 }
