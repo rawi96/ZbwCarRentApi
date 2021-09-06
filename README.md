@@ -65,5 +65,5 @@ mkdocs gh-deploy --force
 choco install k6
 ```
 ```
-k6 --out json=artifacts/load-tests.json run source/tests/CarRentApi.Tests/LoadTests/Script.js
+k6 --out json=testResults/load-tests.json --out csv=testResults/load-tests.csv run source/tests/CarRentApi.Tests/LoadTests/Script.js
 ```
