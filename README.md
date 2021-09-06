@@ -8,6 +8,8 @@
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=leafar396_ZbwCarRentApi&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=leafar396_ZbwCarRentApi&metric=coverage)](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
 
+[Link to Sonar](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -37,9 +39,23 @@ To get a local copy up and running follow these simple steps.
 
 ## Documentation
 
-_[Documentation](docs/index.md)_
+<a href="https://leafar396.github.io/ZbwCarRentApi/"><strong>Link to published Documentation</strong></a>
 
-## Sonar
+_[Documentation in Source Code](docs/index.md)_
 
-[Link to Sonar](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
-
+install mkdocs
+```sh
+pip install mkdocs
+```
+install mkdocs material template
+```sh
+pip install mkdocs-material
+```
+serve locally
+```sh
+mkdocs serve
+```
+Publishing to github
+```sh
+mkdocs gh-deploy --force
+```
