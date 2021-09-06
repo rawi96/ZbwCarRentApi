@@ -4,9 +4,11 @@ using CarRentApi.ReservationManagement;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace CarRentApi.Common
 {
+    [ExcludeFromCodeCoverage]
     public class Context : DbContext
     {
         public DbSet<CarClass> CarClasses { get; set; }
