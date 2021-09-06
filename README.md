@@ -59,3 +59,11 @@ Publishing to github
 ```sh
 mkdocs gh-deploy --force
 ```
+
+## Load Tests
+```
+choco install k6
+```
+```
+k6 run source/tests/CarRentApi.Tests/LoadTests/Script.js
+```
