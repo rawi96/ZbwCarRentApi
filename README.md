@@ -67,3 +67,5 @@ choco install k6
 ```
 k6 --out json=testResults/load-tests.json --out csv=testResults/load-tests.csv run source/tests/CarRentApi.Tests/LoadTests/Script.js
 ```
+
+_[TestResults](https://htmlpreview.github.io/?https://github.com/leafar396/ZbwCarRentApi/blob/main/testResults/load-tests.html)_
