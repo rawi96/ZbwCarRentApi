@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Documentation
 
-<a href="https://leafar396.github.io/ZbwCarRentApi/"><strong>Link to published Documentation</strong></a>
+<a href="https://leafar396.github.io/ZbwCarRentApi/index.html"><strong>Link to published Documentation</strong></a>
 
 _[Documentation in Source Code](docs/index.md)_
 
