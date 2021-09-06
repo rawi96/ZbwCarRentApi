@@ -8,7 +8,7 @@
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=leafar396_ZbwCarRentApi&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=leafar396_ZbwCarRentApi&metric=coverage)](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
 
-[Link to Sonar](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)
+_[Link to Sonar](https://sonarcloud.io/dashboard?id=leafar396_ZbwCarRentApi)_
 
 ## Getting Started
 
