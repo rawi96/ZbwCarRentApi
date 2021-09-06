@@ -1,0 +1,722 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://example.com/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.8">
+    
+    
+      
+        <title>Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vision" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Vision
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Vision
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Vision
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    Context
+  </a>
+  
+    <nav class="md-nav" aria-label="Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-soll-gebaut-werden" class="md-nav__link">
+    Was soll gebaut werden?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wer-benutzt-das-system" class="md-nav__link">
+    Wer benutzt das System?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-passt-es-in-die-bestehende-it-landschaft" class="md-nav__link">
+    Wie passt es in die bestehende IT-Landschaft?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    Containers
+  </a>
+  
+    <nav class="md-nav" aria-label="Containers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-sind-die-technologischen-entscheide" class="md-nav__link">
+    Was sind die technologischen Entscheide?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-kommunizieren-die-container-untereinander" class="md-nav__link">
+    Wie kommunizieren die Container untereinander?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aus-welchen-komponenten-und-services-besteht-das-system" class="md-nav__link">
+    Aus welchen Komponenten und Services besteht das System?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ist-klar-wie-das-system-high-level-arbeiten-soll" class="md-nav__link">
+    Ist klar wie das System „high-level“ arbeiten soll?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    Context
+  </a>
+  
+    <nav class="md-nav" aria-label="Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-soll-gebaut-werden" class="md-nav__link">
+    Was soll gebaut werden?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wer-benutzt-das-system" class="md-nav__link">
+    Wer benutzt das System?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-passt-es-in-die-bestehende-it-landschaft" class="md-nav__link">
+    Wie passt es in die bestehende IT-Landschaft?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    Containers
+  </a>
+  
+    <nav class="md-nav" aria-label="Containers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-sind-die-technologischen-entscheide" class="md-nav__link">
+    Was sind die technologischen Entscheide?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-kommunizieren-die-container-untereinander" class="md-nav__link">
+    Wie kommunizieren die Container untereinander?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aus-welchen-komponenten-und-services-besteht-das-system" class="md-nav__link">
+    Aus welchen Komponenten und Services besteht das System?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ist-klar-wie-das-system-high-level-arbeiten-soll" class="md-nav__link">
+    Ist klar wie das System „high-level“ arbeiten soll?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="vision">Vision</h1>
+<h2 id="context">Context</h2>
+<p><img src="./images/context.drawio.svg" alt="Context"/></p>
+<h3 id="was-soll-gebaut-werden">Was soll gebaut werden?</h3>
+<ul>
+<li>Eine Software, mit der ein Sachbearbeiter Kunden und Autos erfassen kann.</li>
+<li>Eine Software, mit der Kunden via Sachbearbeiter Autos für einen gewünschnten Zeitraum reservieren und mieten können.</li>
+</ul>
+<h3 id="wer-benutzt-das-system">Wer benutzt das System?</h3>
+<ul>
+<li>Sachbearbeiter</li>
+<li>Kunden indirekt</li>
+</ul>
+<h3 id="wie-passt-es-in-die-bestehende-it-landschaft">Wie passt es in die bestehende IT-Landschaft?</h3>
+<ul>
+<li>Es gibt noch keine bestehende IT-Landschaft.</li>
+</ul>
+<h2 id="containers">Containers</h2>
+<p><img src="./images/container.drawio.svg" alt="Container"/></p>
+<h3 id="was-sind-die-technologischen-entscheide">Was sind die technologischen Entscheide?</h3>
+<ul>
+<li>Client<ul>
+<li>Angular</li>
+</ul>
+</li>
+<li>Server<ul>
+<li>ASP.NET Core</li>
+<li>Entity Framework</li>
+<li>Testing<ul>
+<li>x-Unit</li>
+<li>FakeItEasy</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Database<ul>
+<li>Microsoft SQL</li>
+</ul>
+</li>
+<li>CI/CD<ul>
+<li>GitHub</li>
+<li>Sonar</li>
+</ul>
+</li>
+</ul>
+<h3 id="wie-kommunizieren-die-container-untereinander">Wie kommunizieren die Container untereinander?</h3>
+<ul>
+<li>Client / Server <ul>
+<li>HTTP REST</li>
+</ul>
+</li>
+<li>Server / Database<ul>
+<li>Entity Framework (TCP/IP)</li>
+</ul>
+</li>
+</ul>
+<h2 id="components">Components</h2>
+<p><img src="./images/komponenten.drawio.svg" alt="Komponenten"/></p>
+<h3 id="aus-welchen-komponenten-und-services-besteht-das-system">Aus welchen Komponenten und Services besteht das System?</h3>
+<ul>
+<li>Verwaltungen<ul>
+<li>Kundenverwaltung</li>
+<li>Autoverwaltung (inkl. Autoklassen)</li>
+<li>Reservations- / Mietvertrags-Verwaltung</li>
+</ul>
+</li>
+<li>Sämtliche Verwaltungen greifen via EF auf die DB.</li>
+</ul>
+<h3 id="ist-klar-wie-das-system-high-level-arbeiten-soll">Ist klar wie das System „high-level“ arbeiten soll?</h3>
+<ul>
+<li>Beispiel Kunde erfassen:<ul>
+<li>Der Sachbearbeiter kann im Webclient ein Kunde erfassen.</li>
+<li>Dazu muss er die entsprechenden Daten bei sich im Browser eingeben.</li>
+<li>Beim Klick auf Speichern wird ein HTTP POST Request mit den entsprechenden Daten im Payload auf die Backend ASP .NET API gemacht.</li>
+<li>Diese validiert die Daten.<ul>
+<li>Falls ungültig gibt sie ein HTTP Status 400 zurück.</li>
+<li>Falls gültig erstellt sie im Entity Framework ein neues Objekt und speichert es in der Datenbank.</li>
+<li>Sobald das Objekt erfolgreich gespeichert wurde gibt die API einen HTTP Status 201 zurück.</li>
+<li>Die Webapplikation kann dann entsprechend mit einer Erfolgsmeldung darauf reagieren.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="use-cases-im-brief-format">Use Cases im "Brief" Format</h1>
+<p><img src="./images/usecases.drawio.svg" alt="Usecases"/></p>
+<h2 id="uc1-der-sachbearbeiter-kann-kunden-verwalten-crud">UC1 Der Sachbearbeiter kann Kunden verwalten (CRUD)</h2>
+<ul>
+<li>Der Sachbearbeiter kann im Webclient Kunden:<ul>
+<li>Erfassen<ul>
+<li>Felder:<ul>
+<li>Kundennummer<ul>
+<li>Muss einzigartig sein.</li>
+</ul>
+</li>
+<li>Vorname</li>
+<li>Name</li>
+<li>Strasse</li>
+<li>Nummer</li>
+<li>PLZ</li>
+<li>Ort</li>
+<li>Land</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bearbeiten</li>
+<li>Löschen<ul>
+<li>Kunden, die bereits eine Reservation, oder einen Mietvertrag besitzen können nicht gelöscht werden. </li>
+<li>Sondern diese werden nur als gelöscht markiert.</li>
+<li>Sobald ein Kunde als gelöscht markiert wurde, kann er keine neuen Reservationen mehr vornehmen.</li>
+<li>Kunden mit offenen Reservationen können nicht als gelöscht markiert werden.</li>
+</ul>
+</li>
+<li>Suchen<ul>
+<li>Kunden sollen über folgende Felder gesucht werden können:<ul>
+<li>Vorname</li>
+<li>Nachname</li>
+<li>Kundennummer</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="uc2-der-sachbearbeiter-kann-autoklassen-verwalten-crud">UC2 Der Sachbearbeiter kann Autoklassen verwalten (CRUD)</h2>
+<ul>
+<li>Der Sachbearbeiter kann im Webclient Autoklassen:<ul>
+<li>Erfassen<ul>
+<li>Felder:<ul>
+<li>Name</li>
+<li>Tagesgebühr</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bearbeiten</li>
+<li>Löschen<ul>
+<li>Klassen, die bereits mind. 1 Auto zugewiesen sind können nicht gelöscht werden. </li>
+</ul>
+</li>
+<li>Suchen<ul>
+<li>Klassen sollen über folgende Felder gesucht werden können:<ul>
+<li>Name</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="uc3-der-sachbearbeiter-kann-autos-verwalten-crud">UC3 Der Sachbearbeiter kann Autos verwalten (CRUD)</h2>
+<ul>
+<li>Der Sachbearbeiter kann im Webclient Autos:<ul>
+<li>Erfassen<ul>
+<li>Felder:<ul>
+<li>Marke </li>
+<li>Typ</li>
+<li>Autonummer</li>
+<li>Autoklasse</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bearbeiten</li>
+<li>Löschen<ul>
+<li>Autos, die bereits mind. einem Mietvertrag zugewiesen sind, können nicht gelöscht werden.</li>
+<li>Sondern sie werden nur als gelöscht markiert.</li>
+<li>Als gelöscht markierte Autos können nicht erneut reserviert werden.</li>
+<li>Autos mit offenen Reservationen können nicht als gelöscht markiert werden.</li>
+</ul>
+</li>
+<li>Suchen<ul>
+<li>Autos sollen über folgende Felder gesucht werden können:<ul>
+<li>Marke</li>
+<li>Autnummer</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="uc4-der-sachbearbeiter-kann-autos-fur-einen-kunde-reservieren">UC4 Der Sachbearbeiter kann Autos für einen Kunde reservieren</h2>
+<ul>
+<li>Über die Auto-Suche (UC3) kann der Sachbearbeiter ein Auto auswählen.</li>
+<li>Nachdem er das Auto ausgewählt hat, kann er ein Start und ein Enddatum der Reservation angeben.</li>
+<li>Sobald er die Anzahl Tage ausgewählt hat, werden ihm die Gesamtkosten für die Reservation angezeigt.</li>
+<li>Beim Klick auf "Reservieren" wird eine neue Reservation angelegt:<ul>
+<li>Felder<ul>
+<li>Reservationsnummer</li>
+<li>Kunde</li>
+<li>Auto</li>
+<li>Startdatum</li>
+<li>Enddatum</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="uc5-der-kunde-kann-ein-reserviertes-auto-abholen">UC5 Der Kunde kann ein reserviertes Auto abholen</h2>
+<ul>
+<li>Am Startdatum kommt der Kunde in die Garage und der Sachbearbeiter klickt bei der entsprechenden Reservation:<ul>
+<li>Mietvertrag generieren</li>
+<li>Dieser Button wandelt die Reservation in einen Mietvertrag um.<ul>
+<li>Das Reservationsmodel hat ein Flag "Mietvertrag".</li>
+<li>Dieses wird just in diesem Moment auf true gesetzt.</li>
+</ul>
+</li>
+<li>Der Kunde unterzeichnet den Vertrag und kann das Auto mitnehmen.  </li>
+</ul>
+</li>
+</ul>
+<h1 id="domain-model">Domain Model</h1>
+<p><img src="./images/domainmodel.drawio.svg" alt="Domain Model"/></p>
+<h1 id="views">Views</h1>
+<h2 id="deployment-view">Deployment View</h2>
+<p><img src="./images/deploymentview.drawio.svg" alt="Deploymentview"/></p>
+<h2 id="implementation-view">Implementation View</h2>
+<pre><code>|
++---docs
+|   |
+|   \---images
+|
+\---source
+    |
+    +---src
+    |   \---CarRentApi
+    |       |
+    |       +---CarManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+
+            +---CustomerManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+
+            +---ReservationsManagement
+    |       |   +---Api
+    |       |   +---Application
+    |       |   +---Domain
+    |       |   \---Infrastructure
+    \---tests
+        \---CarRentApi.Tests
+</code></pre>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.76f349be.min.js"></script>
+      
+    
+  </body>
+</html>
